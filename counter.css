@@ -1,0 +1,83 @@
+
+.img-container{
+
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(./picture_3.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items : center;
+    color: aliceblue;
+    font-size: 40px;
+
+}
+
+#btn{
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.inner{
+    padding: 50px 40px;
+
+}
+
+#saveValues{
+    font-size: 20px;
+}
+
+#saveBtn{
+
+    background-color: black;
+    color: rgb(255, 248, 240);
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+  
+a{
+    background-color:  #881919 ;
+    color:aliceblue;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid;
+    border-radius: 0px;
+    width: 100px;
+    border: 3px solid  #881919;
+    border-spacing: 15px 50px;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+  
+  }
+
+.b{
+    
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+     
+  }
+
+#restartBtn{
+    background-color: black;
+    color: rgb(255, 248, 240);
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    justify-content: space-around;
+}

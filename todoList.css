@@ -1,0 +1,106 @@
+body{
+    height: 50vh;
+    background-color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.main{
+ 
+    width: 280px;
+    margin-top: 150px;
+    margin-left: 300px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+  }
+
+  h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight:bolder;
+  
+  }
+.btn{
+    cursor: pointer ;
+    margin-top:10px;
+  
+
+    background-color:  green;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#container{
+
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+
+}
+ 
+.b{
+    
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  justify-content: space-around;
+   
+}
+
+a{
+  background-color:black ;
+  color:aliceblue;
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 18px;
+  font-weight: bolder;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 100px;
+  border: 3px solid  black;
+  border-spacing: 15px 50px;
+  padding: 8px;
+  padding-left: 20px;
+
+}
+
+#todoList{
+
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+

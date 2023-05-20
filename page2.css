@@ -1,0 +1,65 @@
+body{
+  
+    background-color:aliceblue;
+   
+    
+
+}
+
+.a{
+    text-align: center;
+    margin-top: 250px;
+    justify-content: space-around;
+     
+
+}
+
+
+
+a{
+    color:#881919;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid;
+
+    width: 100px;
+    background-color:aliceblue;
+    border: 3px solid #881919;
+    border-spacing: 15px 50px;
+    padding: 8px;
+    margin: 10px ;
+
+
+    
+}
+
+.b{
+    
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+     
+}
+
+.c{
+    
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+     
+}
+
+.d{
+    
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+     
+}
+.e{
+    
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+     
+}
